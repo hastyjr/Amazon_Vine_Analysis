@@ -4,7 +4,7 @@
 ## Vine Program Analysis
 The following analysis is on Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
-In this project, a large dataset of personal health care items was used. PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, Additionally, PySpark was used to determine if there was any bias toward favorable reviews from Vine members in the dataset. Finally, a written analysis was provided on the bias of the Vine reviews.
+In this project, a large dataset of personal health care items was used to determine if there is any bias for Vine reviews in this category. PySpark was used to perform the ETL process to extract, transform, and connect the dataset to an AWS RDS instance, and load the transformed data into pgAdmin. Additionally, PySpark was used to determine if there was any bias toward favorable reviews from Vine members in the dataset. Finally, a written analysis was provided on the bias of the Vine reviews, to include another recommended analysis to determine other ways to identify any bias toward favorable reviews from Vine members in the dataset.
 
 ### Extracted Dataset
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Health_Personal_Care_v1_00.tsv.gz
