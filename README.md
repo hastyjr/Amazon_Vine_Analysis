@@ -24,10 +24,11 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Health_Persona
 
 * How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
-    The below screenshots show  
-![total vine reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/paid_total_reviews.png)
+    The below screenshots show the number of 5-star Vine and non-Vine reviews in the dataset.
+    
+    ![paid_five_star_reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/paid_five_star_reviews.png)
 
-![total non-vine reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/unpaid_total_reviews.png)
+    ![unpaid_five_star_reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/unpaid_five_star_reviews.png)
 
 
 
