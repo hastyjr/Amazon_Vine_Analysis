@@ -14,8 +14,20 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Health_Persona
 
 * How many Vine reviews and non-Vine reviews were there?
 
-        There were 497 Vine reviews and 120,863 non-Vine reviews.
+    There were `497` Vine reviews and `120,863` non-Vine reviews.
+
+     The below screenshots show the number of Vine and non-Vine reviews in the dataset.
+
+    ![total vine reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/paid_total_reviews.png)
+
+    ![total non-vine reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/unpaid_total_reviews.png)
+
+* How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
+    The below screenshots show  
 ![total vine reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/paid_total_reviews.png)
+
+![total non-vine reviews](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/unpaid_total_reviews.png)
 
 
 
