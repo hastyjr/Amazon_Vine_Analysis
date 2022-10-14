@@ -36,10 +36,51 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Health_Persona
             
     `44.3% of` Vine reviews were 5 stars and `62%` of non-Vine reviews were 5 stars.
 
+    The below screenshots show the percentage of 5-star Vine and non-Vine reviews in the dataset.
+
     ![paid_five_star_reviews_percentage](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/paid_percentage_five_star_reviews.png)
 
     ![unpaid_five_star_reviews_percentage](https://github.com/hastyjr/Amazon_Vine_Analysis/blob/main/Resources/unpaid_percentage_five_star_reviews.png)
 
 # Summary
 
-state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+The percentage of 5-star reviews for Vine members is `44.3%` while the percentage of 5-star reviews for non-Vine members is `62%`. This shows that there is a `17.7%` difference in the percentage of 5-star reviews between Vine and non-Vine members. This is a significant difference and shows that there is a positivity bias for reviews in the Vine program.
+
+There are additional analysis that can be performed to determine if there is a positivity bias for Vine reviews. The following analysis can be performed:
+* Determine if there is a positivity bias for Vine reviews in a specific category.
+* Determine if there is a positivity bias for Vine reviews in a specific product parent.
+* Determine if there is a positivity bias for Vine reviews in a specific marketplace.
+
+The following code can be used to determine if there is a positivity bias for Vine reviews in a specific category.
+
+```python
+# Determine if there is any bias for Vine reviews in a specific category
+vine_category_df = vine_df.filter(vine_df.category_id == "category_id")
+vine_category_df.show()
+```
+
+The following code can be used to determine if there is a positivity bias for Vine reviews in a specific product parent.
+
+```python
+# Determine if there is any bias for Vine reviews in a specific product parent
+vine_product_parent_df = vine_df.filter(vine_df.product_parent == "product_parent")
+vine_product_parent_df.show()
+```
+
+The following code can be used to determine if there is a positivity bias for Vine reviews in a specific marketplace.
+
+```python
+# Determine if there is any bias for Vine reviews in a specific marketplace
+vine_marketplace_df = vine_df.filter(vine_df.marketplace == "marketplace")
+vine_marketplace_df.show()
+```
+
+---
+
+# Resources
+* [Amazon Reviews Dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
+* [Amazon Vine Program](https://www.amazon.com/gp/vine/help)
+* [Amazon Vine Program Terms](https://www.amazon.com/gp/vine/help/terms)
+* [Amazon Vine Program FAQ](https://www.amazon.com/gp/vine/help/faq)
+* [Amazon Vine Program Help](https://www.amazon.com/gp/vine/help)
+
